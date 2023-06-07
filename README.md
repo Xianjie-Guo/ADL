@@ -5,10 +5,10 @@ Adaptive Skeleton Construction for Accurate DAG Learning <br>
 
 # Usage
 "ADL.m" is main function. <br>
-**Note** that this code currently supports only discrete datasets.<br>
+Note that this code currently supports only discrete datasets.<br>
 ----------------------------------------------
 function [DAG, time] = ADL(Data, Alpha) <br>
-IMPUT: <br>
+INPUT: <br>
 ```Matlab
 
 ```
