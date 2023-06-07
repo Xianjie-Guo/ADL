@@ -15,4 +15,4 @@ INPUT: <br>
 
 
 # Reference
-* Guo, Xianjie, et al. "Adaptive Skeleton Construction for Accurate DAG Learning." *IEEE Transactions on Knowledge and Data Engineering* (2023).
+* [Guo, Xianjie, et al. "Adaptive Skeleton Construction for Accurate DAG Learning." *IEEE Transactions on Knowledge and Data Engineering* (2023)](https://ieeexplore.ieee.org/abstract/document/10098143).
