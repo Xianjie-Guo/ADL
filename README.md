@@ -1,7 +1,4 @@
 [Adaptive Skeleton Construction for Accurate DAG Learning](https://ieeexplore.ieee.org/abstract/document/10098143) <br>
- * 2121 <br>
- * 121 <br>
-  * 1212 <br>
 
 # Usage
 "ADL.m" is main function. <br>
@@ -17,6 +14,15 @@ Alpha is the significance level, e.g., 0.01 or 0.05.
 ```Matlab
 DAG is a directed acyclic graph learned on a given dataset。
 time is the runtime of the algorithm.
+```
+# Example
+```Matlab
+clear;
+clc;
+addpath(genpath('common_func/'));
+alpha=0.01;
+data=load('./dataset/Alarm_network/Alarm_s500_v1.txt');
+[DAG, time] = ADL(data, alpha);
 ```
 
 # Reference
