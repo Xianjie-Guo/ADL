@@ -22,6 +22,7 @@ clc;
 addpath(genpath('common_func/'));
 alpha=0.01;
 data=load('./dataset/Alarm_network/Alarm_s500_v1.txt');
+data=data+1;
 [DAG, time] = ADL(data, alpha);
 ```
 
