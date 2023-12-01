@@ -2,7 +2,7 @@
 
 # Usage
 "ADL.m" is main function. <br>
-Note that this code currently supports only discrete datasets.<br>
+Note that the current code has only been debugged on a 64-bit Windows system.<br>
 ----------------------------------------------
 function [DAG, time] = ADL(Data, Alpha, data_type) <br>
 * INPUT: <br>
