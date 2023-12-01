@@ -35,7 +35,6 @@ clc;
 addpath(genpath('common_func/'));
 alpha=0.01;
 data=load('./dataset/continuous_data/50n_1000s_data.txt');
-data=data+1;
 [DAG, time] = ADL(data, alpha, 'con');
 ```
 
