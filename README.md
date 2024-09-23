@@ -39,4 +39,4 @@ data=load('./dataset/continuous_data/50n_1000s_data.txt');
 ```
 
 # Reference
-* Guo, Xianjie, et al. "Adaptive Skeleton Construction for Accurate DAG Learning." *IEEE Transactions on Knowledge and Data Engineering* (2023).
+* Guo, Xianjie, et al. "Adaptive Skeleton Construction for Accurate DAG Learning." *IEEE Transactions on Knowledge and Data Engineering (TKDE)* (2023).
